@@ -5,7 +5,7 @@
 all:
 	gcc -std=c11 -Werror src/hello.c -o hello
 run:
-	./hello
+	./hello a b c
 clean: 
 	rm hello
 test:

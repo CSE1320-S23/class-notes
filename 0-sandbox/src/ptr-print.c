@@ -3,8 +3,9 @@
 // PTR PRINT
 int main(void)
 {
-    int i = 20;
+    printf("PTR SKETCH\n");
+    int i = 0;
     int* i_addr = &i;
-    printf("%p\n", i_addr);
-    printf("%d\n", *i_addr);
+    printf("Memory Address: %p\n", i_addr);
+    printf("Value referenced by Memory Address: %d\n", *i_addr); // *i_addr = int
 }
